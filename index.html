@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<meta name="discription" content="Professinal Accountants">
+	<meta name="keywords" content="Accounting, Professional, Bookeeping, Financial Statements">
+	<meta name="author" content="Bhekumuzi P Tshabalala">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="./css/style1.css">
+	<link rel="javascript" href="feather.min.js">
+	<link rel="javascript" href="main.js">
+			
+	<title>Iso Group|About</title>
+
+</head>
+	
+	<body> 
+			<div class="cont_1">
+				<div class="bgimg-1">
+			
+					<section class="homeNav">				
+						<div id="mySidenav" class="sidenav">
+	  						<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+							<a href="index.html"><i class="fa fa-fw fa-home"></i> 
+								Home</a> 
+	  						<a href="services.html"><i class="fa fa-fw fa-wrench"></i> 
+	  							Services</a>
+		  					<a href="projects.html"><i class="fa fa-fw fa-user"></i> 
+		  						Projects</a> 
+		  					<a href="about.html"><i class="fa fa-users" aria-hidden="true"></i>
+ 								About Us</a> 
+                        	<a href="ContactUs.html"><i class="fa fa-address-card" aria-hidden="true"></i> 
+                        		Contact Us</a>
+						</div>
+					
+						<div id="main">
+	  						<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+					
+
+							<script>
+								function openNav() {
+		  							document.getElementById("mySidenav").style.width = "250px";
+		  							document.getElementById("main").style.marginLeft = "180px";
+		  							document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+								}
+
+								function closeNav() {
+		  							document.getElementById("mySidenav").style.width = "0";
+		  							document.getElementById("main").style.marginLeft= "0";
+		  							document.body.style.backgroundColor = "white";
+								}
+							</script>
+						</div>
+					</section>
+
+				
+  					<div class="caption">
+  						<span class="border">
+  									Iso LIKUBHEKILE
+  						</span>
+  					</div>
+				</div>
+
+
+				<section class="vmObj">
+					<div style="color:#777; background-color:white; text-align:center; padding:25px 40px; text-align:justify;">
+  	
+	  					<h3 style="text-align: center">
+  								Iso Group
+  						</h3>
+  					
+
+						<div class="container flex">
+							<button class="tablink" onclick="openPage('Vision', this, 'White')"><h3>Vision</h3></button>
+							<button class="tablink" onclick="openPage('Mission', this, 'White')" id="defaultOpen"><h3>Mission</h3></button>
+							<button class="tablink" onclick="openPage('Objectives', this, 'White')"><h3>Objectives</h3></button>
+						</div>
+
+						<div id="Vision" class="tabcontent"><h3>VISION</h3>
+  							<p>Iso Group is a Solutions Company.<br>
+								We Solution the needs of both the Corporate &amp; the individual Entity.<br> 
+								The Firm was Established in Soweto in DATE by its Founder and Managing Partner, Josh Sithole.<br> 
+								Khosi Sithole, Senior Partner, has consulted with the group and its clients since DATE.<br> 
+								This dynamic trio has over 30 years of experience in the field of Accounting &amp; Taxation
+							</p>
+						</div>
+
+						<div id="Mission" class="tabcontent"><h3>MISSION</h3>
+  							<p>Iso Group is a Solutions Company.<br>
+						
+									Josh Sithole heads the Johannesburg Office with over #YEARS of Experience<br> 
+									in the Field of Business Consulting, Accounting and Auditing.
+								<br>
+									Iso Group provides a complete range of services to its clients,<br> 
+									including Accounting, Taxation and Business Consulting Services.
+								<br> 
+									Our services page can be viewed for more details of our offerings.<br>
+									The firm has Offices in the South Western Townships (Soweto), Johannesburg South Africa.
+  							</p> 
+						</div>
+
+						<div id="Objectives" class="tabcontent"><h3>OBJECTIVES</h3>
+  							<p>Iso Group is a Solutions Company.<br>
+									Iso Group provides a complete range of services to its clients,<br> 
+									including Accounting, Taxation and Business Consulting Services.
+								<br> 
+									Our services page can be viewed for more details of our offerings.<br>
+								<br>
+									The firm has Offices in the South Western Townships (Soweto), Johannesburg South Africa.
+  							</p>
+						</div>
+
+						<script>
+								function openPage(pageName,elmnt,color) {
+									  var i, tabcontent, tablinks;
+									  tabcontent = document.getElementsByClassName("tabcontent");
+									  for (i = 0; i < tabcontent.length; i++) {
+									    tabcontent[i].style.display = "none";
+									  }
+									  tablinks = document.getElementsByClassName("tablink");
+									  for (i = 0; i < tablinks.length; i++) {
+									    tablinks[i].style.backgroundColor = "";
+									  }
+									  document.getElementById(pageName).style.display = "block";
+									  elmnt.style.backgroundColor = color;
+								}
+
+								// Get the element with id="defaultOpen" and click on it
+								document.getElementById("defaultOpen").click();
+						</script>
+					</div>
+				</section>
+
+				<div class="bgimg-2">
+					<img class="sticky" src="./img/Iso_Logo.png">
+  					<div class="caption">
+  						<span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">NOMZAMO MADIKIZELA-MANDELA<br>|MUNICIPALITY|<br>|SOWETO|</span>
+  					</div>
+				</div>
+
+				<div style="position:relative;">
+  					<div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+  						<p>We go beyond our service offering by provisioning our clients an Oportunity to Build Value for their own clientele</p>
+  					</div>
+				</div>
+
+				<div class="bgimg-3">
+					<img class="sticky" src="./img/Iso_Logo.png">
+  					<div class="caption">
+  						<span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">TOOLS|ANALYSIS|EXECUTE</span>
+  					</div>
+				</div>
+
+				<div style="position:relative;">
+  					<div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+  						<p>We Deploy Identify and Employ Proper Tools of Analysis in order for our clients to improve their own service offering to their Clients</p>
+  					</div>
+				</div>
+
+				<div class="bgimg-1">
+					<img class="sticky" src="./img/Iso_Logo.png">
+
+  					<div class="caption">
+  						<span class="border" style="background-color:transparent;font-size:50px;color:#f7f7f7;">  									
+  											ILENGE<br>VISION 2030 
+  						</span>
+  					</div>
+  					
+					<div class="socialNav">
+						<li><a href="#"><img src="./img/facebook.png"></a></li>
+						<li><a href="#"><img src="./img/twitter.png"></a></li>
+						<li><a href="#"><img src="./img/instagram.png"></a></li>
+						<li><a href="#"><img src="./img/linkin.png"></a></li>
+					</div>
+				</div>
+			</div>
+
+		<section>
+			<div class="socialNav">
+				<li><a href="#"><img src="./img/facebook.png"></a></li>
+				<li><a href="#"><img src="./img/twitter.png"></a></li>
+				<li><a href="#"><img src="./img/instagram.png"></a></li>
+				<li><a href="#"><img src="./img/linkin.png"></a></li>
+			</div>
+		</section>
+		
+		<div id="scroll-to-top">
+			<i data-feather="chevrons-up"></i>
+		</div>
+
+		<script src="feather.min.js"></script>
+		<script src="main.js"></script>
+		<script>feather.replace()</script>
+
+		<script id="__bs_script__">//<![CDATA[
+    document.write("<script async src='http://HOST:3000/browser-sync/browser-sync-client.js?v=2.27.5'><\/script>".replace("HOST", location.hostname));
+//]]></script>
+	
+	</body>
+</html>
